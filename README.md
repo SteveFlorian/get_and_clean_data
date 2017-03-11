@@ -47,9 +47,8 @@ Discussion of Process and End Result
 The R script contains detailed explanatory comments for each step of the
 process. However, there are several things to note:
 
-1.  Merge the training and the test sets to create one data set. I have
-    chosen to include the variables that show "meanFreq". There is
-    debate among both Coursera students and mentors whether these
+1.  I have chosen to include the variables that show "meanFreq". There
+    is debate among both Coursera students and mentors whether these
     variables should be included or not. Without a specific question to
     be answered from the data, no conclusive decision can be made. My
     approach was that it was better to have the data available, in case
@@ -69,7 +68,7 @@ process. However, there are several things to note:
     being requested or posed. However, as mentioned in the rubric,
     either long or wide form is acceptable, and I have chosen to use a
     wide data form. This satisfies Wickham's 3 principles of tidy data
-    [as described here](vita.had.co.nz/papers/tidy-data.pdf):
+    [as described here](https://www.jstatsoft.org/article/view/v059i10):
     -   Each variable forms a column.  
     -   Each observation forms a row.  
     -   Each type of observational unit forms a table.
