@@ -70,12 +70,12 @@ process. However, there are several things to note:
     either long or wide form is acceptable, and I have chosen to use a
     wide data form. This satisfies Wickham's 3 principles of tidy data
     [as described here](vita.had.co.nz/papers/tidy-data.pdf):
-    1.  Each variable forms a column.  
-    2.  Each observation forms a row.  
-    3.  Each type of observational unit forms a table.
+    -   Each variable forms a column.  
+    -   Each observation forms a row.  
+    -   Each type of observational unit forms a table.
 
 And also David Hood's "personal checklist" for tidy data [as described
 here](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):  
-1. It has headings so it's known which columns are which.  
-2. The variables are in different columns.  
-3. There are no duplicate columns.
+- It has headings so it's known which columns are which.  
+- The variables are in different columns.  
+- There are no duplicate columns.

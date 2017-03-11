@@ -19,7 +19,6 @@ trainsub   <- read.table("./train/subject_train.txt")
 features   <- read.table("./features.txt")
 activities <- read.table("./activity_labels.txt")
 
-
 #rename column names to be descriptive. note that the column in testy and trainy
 #right now would be more accurately "activityID", but these values will shortly be
 #replaced by actual activity names, and naming them just "activity" here saves a
