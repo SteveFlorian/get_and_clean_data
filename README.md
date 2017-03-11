@@ -47,8 +47,9 @@ Discussion of Process and End Result
 The R script contains detailed explanatory comments for each step of the
 process. However, there are several things to note:
 
-1.  I have chosen to include the variables that show "meanFreq". There
-    is debate among both Coursera students and mentors whether these
+1.  Merge the training and the test sets to create one data set. I have
+    chosen to include the variables that show "meanFreq". There is
+    debate among both Coursera students and mentors whether these
     variables should be included or not. Without a specific question to
     be answered from the data, no conclusive decision can be made. My
     approach was that it was better to have the data available, in case
@@ -69,11 +70,12 @@ process. However, there are several things to note:
     either long or wide form is acceptable, and I have chosen to use a
     wide data form. This satisfies Wickham's 3 principles of tidy data
     [as described here](vita.had.co.nz/papers/tidy-data.pdf):
-    -   Each variable forms a column.
-    -   Each observation forms a row.
-    -   Each type of observational unit forms a table.
+    1.  Each variable forms a column.  
+    2.  Each observation forms a row.  
+    3.  Each type of observational unit forms a table.
 
 And also David Hood's "personal checklist" for tidy data [as described
-here](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):
-+ It has headings so it's known which columns are which. + The variables
-are in different columns. + There are no duplicate columns.
+here](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):  
+1. It has headings so it's known which columns are which.  
+2. The variables are in different columns.  
+3. There are no duplicate columns.
