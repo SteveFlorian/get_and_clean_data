@@ -45,7 +45,9 @@ Discussion of Process and End Result
 ------------------------------------
 
 The R script contains detailed explanatory comments for each step of the
-process. However, there are several things to note:
+process. Please reference the script directly to see the explanation of
+what the analysis file does. However, there are several additional
+things to note:
 
 1.  I have chosen to include the variables that show "meanFreq". There
     is debate among both Coursera students and mentors whether these
