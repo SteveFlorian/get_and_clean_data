@@ -71,10 +71,9 @@ process. However, there are several things to note:
     [as described here](vita.had.co.nz/papers/tidy-data.pdf):
     -   Each variable forms a column.
     -   Each observation forms a row.
-    -   Each type of observational unit forms a table.  
-        And also David Hood's "personal checklist" for tidy data [as
-        described
-        here](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):
-    -   It has headings so it's known which columns are which.
-    -   The variables are in different columns.
-    -   There are no duplicate columns.
+    -   Each type of observational unit forms a table.
+
+And also David Hood's "personal checklist" for tidy data [as described
+here](https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/):
++ It has headings so it's known which columns are which. + The variables
+are in different columns. + There are no duplicate columns.
